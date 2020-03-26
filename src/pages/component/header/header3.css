@@ -1,0 +1,50 @@
+.blog {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 75%, #161616 100%), url('/img/blog.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.blog h1 {
+    font-family: 'Varela Round';
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.masthead h2 {
+    max-width: 20rem;
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    .blog h1 {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .blog {
+        height: 100vh;
+        padding: 0;
+    }
+    .blog h1 {
+        font-size: 5rem;
+        line-height: 5rem;
+        letter-spacing: 0.8rem;
+    }
+    .blog h2 {
+        max-width: 30rem;
+        font-size: 1.25rem;
+    }
+}

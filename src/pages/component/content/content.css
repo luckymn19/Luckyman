@@ -1,0 +1,47 @@
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.projects-section {
+    padding: 10rem 0;
+}
+
+.projects-section .ini-text {
+    padding: 2rem;
+}
+
+.btn {
+    transition: all .2s ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(0.9);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12), 0 7px 7px rgba(0, 0, 0, 0.12);
+}
+
+@media (min-width: 992px) {
+    .projects-section .ini-text {
+        padding: 0 0 0 2rem;
+        border-left: none;
+    }
+}
+
+.contact {
+    margin-left: 10px;
+}
+
+.projects-section .project-text {
+    padding: 3rem;
+    font-size: 90%;
+}
+
+@media (min-width: 992px) {
+    .projects-section .project-text {
+        padding: 5rem;
+    }
+    .projects-section .project-text hr {
+        border-color: #64a19d;
+        border-width: .25rem;
+        width: 30%;
+    }
+}
