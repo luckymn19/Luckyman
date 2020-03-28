@@ -6,22 +6,22 @@ import Fade from 'react-reveal/Fade';
 function Footer() {
     return (
         <div>
-            <section class="contact-section bg-black">
+            <section className="contact-section bg-black">
                 <Fade bottom cascade>
-                    <div class="row">
-                        <div class="col-12 col-md-12">
-                            <div class="social d-flex justify-content-center">
-                                <a href="https://github.com/luckymn19" class="mx-2">
-                                    <i class="fab fa-github"></i>
+                    <div className="row">
+                        <div className="col-12 col-md-12">
+                            <div className="social d-flex justify-content-center">
+                                <a href="https://github.com/luckymn19" className="mx-2">
+                                    <i className="fab fa-github"></i>
                                 </a>
-                                <a href="https://www.linkedin.com/in/lukman-nur-hakim-3b7203150/" class="mx-2">
-                                    <i class="fab fa-linkedin-in"></i>
+                                <a href="https://www.linkedin.com/in/lukman-nur-hakim-3b7203150/" className="mx-2">
+                                    <i className="fab fa-linkedin-in"></i>
                                 </a>
-                                <a href="https://www.instagram.com/luckymn_/" class="mx-2">
-                                    <i class="fab fa-instagram"></i>
+                                <a href="https://www.instagram.com/luckymn_/" className="mx-2">
+                                    <i className="fab fa-instagram"></i>
                                 </a>
-                                <a href="https://web.facebook.com/profile.php?id=100015100937440" class="mx-2">
-                                    <i class="fab fa-facebook-f"></i>
+                                <a href="https://web.facebook.com/profile.php?id=100015100937440" className="mx-2">
+                                    <i className="fab fa-facebook-f"></i>
                                 </a>
                             </div>
                         </div>
@@ -29,14 +29,14 @@ function Footer() {
                 </Fade>
             </section>
 
-            <footer class="py-5 page-footer">
-                <div class="container-fluid container-fluid-max">
-                    <div class="row">
-                        <div class="col-12 col-md-12 footer-child footer-links">
+            <footer className="py-5 page-footer">
+                <div className="container-fluid container-fluid-max">
+                    <div className="row">
+                        <div className="col-12 col-md-12 footer-child footer-links">
                             <Fade top cascade>
                                 © 2020 Luckyman
                             <br />
-                                <small>Made with <i class="fas fa-heart text-red"></i> by <a href="https://www.instagram.com/luckymn_/" target="_blank">Lukman Nur Hakim</a>
+                                <small>Made with <i className="fas fa-heart text-red"></i> by <a href="https://www.instagram.com/luckymn_/" >Lukman Nur Hakim</a>
                                 </small>
                             </Fade>
                         </div>

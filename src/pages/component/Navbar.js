@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom'
 import "./navbar.css";
 import { CSSTransition } from "react-transition-group";
 
-
-export default function Navbar() {
+function Navbar() {
     const [isNavVisible, setNavVisibility] = useState(false);
     const [isSmallScreen, setIsSmallScreen] = useState(false);
     useEffect(() => {
@@ -47,8 +46,11 @@ export default function Navbar() {
                 </nav>
             </CSSTransition>
             <button onClick={toggleNav} className="Burger">
-                <i class="fas fa-bars"></i>
+                <i className="fas fa-bars"></i>
             </button>
         </header>
     )
 }
+
+
+export default Navbar;

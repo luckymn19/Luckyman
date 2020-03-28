@@ -9,9 +9,9 @@ class HeaderBlog extends React.Component {
     render() {
         return (
             <>
-                <header class="blog">
-                    <div class="container d-flex h-100 align-items-center">
-                        <div class="mx-auto text-center">
+                <header className="blog">
+                    <div className="container d-flex h-100 align-items-center">
+                        <div className="mx-auto text-center">
                             <Fade bottom cascade>
                                 <div>
                                     <h1>Coming Soon.....</h1>
